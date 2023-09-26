@@ -18,8 +18,8 @@ const Signup = () => {
         // push the object in the array using spread operator
         // setallDetails([...allDetails, loginDetails])
         // console.log(allDetails);
-        axios.post("http://localhost:4000/user/signup", {firstName, lastName, email, password})
-        console.log( firstName, lastName, email, password);
+        // axios.post("http://localhost:4000/user/signup", {firstName, lastName, email, password})
+        axios.post("https://backend-project-qzqs.onrender.com/user/signup", {firstName, lastName, email, password})
         // axios.post(endpoint, loginDetails).then((response)=>{
         //     console.log(response.data);
         //     setmessage(response.data.message)
