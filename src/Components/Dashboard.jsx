@@ -3,7 +3,8 @@ import axios, {Axios} from 'axios';
 
 const Dashboard = () => {
   useEffect(() => {
-   let URL = "http://localhost:4000/user/dashboard";
+  //  let URL = "http://localhost:4000/user/dashboard";
+   let URI = "https://backend-project-qzqs.onrender.com/user/dashboard"
   let token = localStorage.token
   axios.get(URL, {
     headers: {
